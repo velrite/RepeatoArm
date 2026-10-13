@@ -1,0 +1,4 @@
+# key|url|title (title optional)
+v00|https://youtu.be/JiwwPDpY4y4|
+debug-01|https://youtube.com/shorts/gA7qPNep2mg?feature=share|
+debug-03|https://youtube.com/shorts/4teszjtGUk8?feature=share|

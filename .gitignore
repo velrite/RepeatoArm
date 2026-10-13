@@ -1,0 +1,10 @@
+# Videos live on YouTube; keeping them out of git means a push can never be blocked by file size
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.MOV
+*.MP4
+__pycache__/
+.DS_Store
+*.tmp
