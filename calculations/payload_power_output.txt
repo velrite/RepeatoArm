@@ -1,0 +1,15 @@
+== Payload at full horizontal stretch (foam links excluded)
+4.8 V: stall limit 268 g | smooth working load (50% of stall) 111 g | safety factor for 27 g bottle 4.1
+6.0 V: stall limit 321 g | smooth working load (50% of stall) 138 g | safety factor for 27 g bottle 5.1
+Foam link mass effect (4.8 V, 50%), each link 0/25/50 g: [111, 86, 61] g
+
+== Power budget (A). MG996R datasheet: run 0.5-0.9 A, stall 2.5 A at 6 V; SG90 typical: run 0.1-0.25 A, stall 0.65 A
+Charger 1: arm Arduino + 2 big servos + 2 claw servos: running 1.26-2.36 A, +30% margin 3.07 A, all stalled 6.36 A
+Charger 2: security Arduino + 1 big servo + security circuit: running 0.61-1.01 A, +30% margin 1.31 A, all stalled 2.61 A
+Whole system, all five servos stalled: 8.8 A; +30% = 11.4 A
+LED current at 1 kohm, 5 V, 2 V drop: 3.0 mA each
+
+== Replay time (code: 1 degree per 30 ms, joints move one after another)
+Worst case, 10 saved poses, each joint sweeping 160 deg: 129.6 s, plus return to start up to 14.4 s
+Typical, 4 poses, 60 deg per joint per segment: 16.2 s
+Stop-button response: checked once per replay cycle, so up to the cycle time above
