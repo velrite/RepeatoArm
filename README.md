@@ -35,6 +35,8 @@ This project started when I was building and fixing a robotic arm that was contr
 
 RepeatoArm keeps that control scheme and adds two things: **record-and-replay** of the arm's poses, and a **separate proximity alarm**.
 
+The repair of that first arm is written up in my [Center4Tech experience repository](https://github.com/velrite/center4tech-experience/blob/main/02-project-case-studies/robotic-arm-repair.md).
+
 
 ## What it does
 
