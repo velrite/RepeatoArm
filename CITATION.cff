@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "RepeatoArm: a foam-board teach-and-repeat robotic arm with a separate proximity alarm"
+type: software
+authors:
+  - name: "Olalekan Olamide"
+repository-code: "https://github.com/velrite/RepeatoArm"
+abstract: "A foam-board robotic arm with three MG996R joints and an SG90 claw, controlled by potentiometers, that records up to 10 poses and replays them, plus a separate Arduino ultrasonic proximity alarm. Final-year Mechatronics Engineering project, Federal University Oye-Ekiti, 2023-2024."
+keywords:
+  - robotic arm
+  - Arduino
+  - record and replay
+  - mechatronics
